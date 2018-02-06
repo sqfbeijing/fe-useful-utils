@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+    font: 14px / 20px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #333;
+    /*-webkit-overflow-scrolling:touch;*/
+}
+
+a,
+button,
+input,
+textarea,
+label {
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+body, p, ul, ol, dl, dd, h1, h2, h3 {
+    margin: 0;
+}
+
+ul, ol {
+    padding: 0;
+    list-style: none;
+}
+
+img, audio, video, button {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    border: none;
+}
+
+a, a:active, input, button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+button {
+    cursor: pointer;
+}
+
+em, i {
+    font-style: normal;
+}
+
+strong, b, h1, h2, h3, table tr th {
+    font-weight: normal;
+}
+
+h1, h2, h3 {
+    font-size: 14px;
+}
+
+table {
+    display: block;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+table tr th, table tr td {
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+/*clear float*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*去除number右侧的默认图标样式*/
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
