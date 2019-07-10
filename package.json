@@ -1,6 +1,6 @@
 {
   "name": "fe-useful-utils",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Useful code snippet for front-end programmer.",
   "main": "index.js",
   "scripts": {
