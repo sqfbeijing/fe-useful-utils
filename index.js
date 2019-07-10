@@ -1,1 +1,2 @@
-module.exports = require('./lib/util/util.js');
+const util = {};
+export default util;
